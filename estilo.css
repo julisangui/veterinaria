@@ -1,0 +1,548 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/*header*/
+
+
+.logo{
+    position: relative;
+    bottom: 10px;
+    height: 5%;
+    width: 10%;
+    margin-top: 15px;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu{
+    color: black;
+    font-size: 15px;
+    margin-left: 30px;
+    position: relative;
+    top: 15px;
+    text-decoration: none;
+}
+.menu:hover{
+    color: #f53a50;
+}
+
+
+/*div 1*/
+
+
+.div1{
+    background-image: url(Img/sc1.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+}
+.div1 h1{
+    color: white;
+    font-size: 70px;
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 10%;
+}
+.div1 p{
+    color: white;
+    font-size: 20px;
+    margin-top: 3%;
+    margin-left: 150px;
+    margin-right: 55%;
+}
+.div1 button{
+    color: #f53a50;
+    background-color: white;
+    padding: 15px;
+    margin-left: 150px;
+    width: 17%;
+    font-size: 17px;
+    border-radius: 7px;
+    border-style: none;
+    cursor: pointer;
+    margin-top: 3%;
+}
+.div1 button:hover{
+    transition: .5s;
+    background-color: #f53a50;
+    color: white;
+}
+
+
+/*div 2*/
+
+
+.div2 h1{
+    font-size: 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-align: center;
+    color: #f53a50;
+}
+.div2 img{
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(189, 70, 70, 0.6);
+}
+.div2 h2{
+    color: #f53a50;
+}
+.div2 p{
+    color: black;
+}
+.products{
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+.products h2{
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 15%;
+    padding-bottom: 8%;
+}
+.products p{
+    font-size: 15px;
+    line-height: 30px;
+    color: black;
+}
+.item1 p{
+    margin-right: 40px;
+}
+.item2{
+    margin-left: 60px;
+}
+.item2 h2{
+    position: relative;
+    bottom: 6px;
+}
+.item2 p{
+    position: relative;
+    bottom: 12px;
+    margin-right: 60px;
+}
+.item3 p{
+    position: relative;
+    bottom: 5px;
+    margin-right: 30px;
+}
+.div2 button{
+    background-color: #f53a50;
+    color: white;
+    height: 50px;
+    width: 200px;
+    margin-bottom: 80px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgb(161, 161, 161);
+}
+.div2 button:hover{
+    transition: .3s;
+    background-color: #c21d5f;
+}
+.item1 button{
+    margin-top: 15px;
+}
+.item2 button{
+    margin-top: 7px;
+}
+.item3 button{
+    margin-top: 15px;
+}
+
+
+/*div 3*/
+
+
+.div3{
+    height: 370px;
+    background-image: linear-gradient(45deg, #c21d5f 30%, #f53a50, #fc697b);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div3 h1{
+    color: white;
+    font-size: 50px;
+    margin-top: 30px;
+}
+.div3 p{
+    text-align: center;
+    color: white;
+    width: 340px;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.div3 button{
+    color: #f53a50;
+    background-color: white;
+    height: 50px;
+    width: 16%;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 7px;
+    border-style: none;
+    cursor: pointer;
+}
+.div3 button:hover{
+    transition: .5s;
+    background-color: #f53a50;
+    color: white;
+}
+
+
+/*div con video*/
+
+
+.contenedor-video{
+    background-size: cover;
+    background-attachment: fixed;
+    height:550px;
+}
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.contenedor-video h1{
+    color: white;
+    float: right;
+    position: relative;
+    line-height: 150%;
+    bottom: 380px;
+    right: 150px;
+    font-size: 70px;
+    width: 37%;
+}
+
+
+/*div 4*/
+
+
+.div4{
+    height: 600px;
+}
+.about1{
+    width: 50%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.about1 h1{
+    font-size: 50px;
+    color:#f53a50;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    margin-left: 150px;
+}
+.about1 p{
+    color:black;
+    font-weight: 300;
+    line-height: 160%;
+    margin-bottom: 30px;
+    margin-left: 150px;
+    margin-right: 120px;
+}
+.about2{
+    height: 100px;
+    width: 50%;
+    float: right;
+    position: relative;
+}
+.cuadro{
+    background: linear-gradient(312deg, rgba(204,75,112,1) 0%, rgba(250,114,127,1) 100%);
+    border-bottom-right-radius: 250px;
+    float: right;
+    position: absolute;
+    right: 0;
+    height: 600px;
+    width: 380px;
+    z-index: 1;
+}
+.contenedor-tarjetas{
+    display: block;
+    position: relative;
+    bottom: 150px;
+    z-index: 2;
+}
+.tarjeta{
+    box-shadow: 0 0 10px rgba(189, 70, 70, 0.6);
+    background-color: white;
+    margin: 25px;
+    float: right;
+    font-size: 13px;
+    margin-right: 280px;
+    border-radius: 10px;
+    height: 90px;
+    width: 50%;
+}
+.tarjeta h3{
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.tarjeta p{
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.contenedor-tarjetas img{
+    position: relative;
+    bottom: 60px;
+    right: 20px;
+}
+
+
+/*div5*/
+
+
+.div5{
+    background-color: #fff4f6;
+    height: 600px;
+}
+.div5 h1{
+    color: #f53a50;
+    font-size: 50px;
+    text-align: center;
+    padding: 50px
+}
+.div5 h2{
+    color: #f53a50;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.textos{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.texto1, .texto2, .texto3{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.texto1{
+    width: 250px;
+}
+.texto2{
+    width: 250px;
+    margin-left: 15px; 
+}
+.texto3{
+    width: 250px;
+}
+.div5 img{
+    position: relative;
+    bottom: 50px;
+    left: 100px;
+}
+
+
+/*div6*/
+
+
+.div6{
+    height: 650px;
+}
+.unique1{
+    margin-top: 150px;
+    text-align: center;
+    width: 50%;
+    float: left;
+}
+.unique2{
+    display: block;
+    justify-content: center;
+    float: right;
+    width: 50%;
+}
+.unique2 h1{
+    text-align: center;
+    color: #f53a50;
+    font-size: 50px;
+    margin-top: 50px;
+}
+.div6 strong{
+    color: #f53a50;
+}
+.div6 p{
+    font-size: 15px;
+    line-height: 30px;
+    margin-left: 110px;
+    margin-right: 90px;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+
+/*div7*/
+
+
+.div7{
+    height: 370px;
+    background-image: linear-gradient(45deg, #c21d5f 30%, #f53a50, #fc697b);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div7 h1{
+    color: white;
+    font-size: 50px;
+    margin-top: 30px;
+}
+.div7 p{
+    text-align: center;
+    color: white;
+    width: 340px;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.div7 button{
+    color: #f53a50;
+    background-color: white;
+    height: 50px;
+    width: 16%;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 7px;
+    border-style: none;
+    cursor: pointer;
+}
+.div7 button:hover{
+    transition: .5s;
+    background-color: #f53a50;
+    color: white;
+}
+
+
+/*div8*/
+
+.div8 h1{
+    text-align: center;
+    color: #f53a50;
+    font-size: 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-parte1 {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.inputs {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+label{
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+input[type="text"],input[type="email"],textarea {
+    padding: 10px;
+    height: 25px;
+    border: none;
+    box-shadow: 0 0 10px rgba(189, 70, 70, 0.3);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.name, .mail{
+    width: 250px;
+}
+
+.message{
+    height: 200px
+}
+
+.div8 input:hover, textarea:hover{
+    background-color: #fff4f6;
+}
+
+
+button[type="submit"] {
+    background-color: #f53a50;
+    box-shadow: 0px 0px 10px rgb(161, 161, 161);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 130px;
+    height: 50px;
+    width: 220px;
+    border-style: none;
+    cursor: pointer;
+    margin-left: 30vh; 
+}
+
+.div8 button:hover{
+    transition: .3s;
+    background-color: #c21d5f;
+}
+
+
+/*div 9*/
+
+
+.div9{
+    height: 180px;
+    background-image: linear-gradient(45deg, #c21d5f 30%, #f53a50, #fc697b);
+}
+.div9 img{
+    width: 30%;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 30px;
+}
+.div9 i{
+    color: white;
+    font-size: 25px;
+    margin: 0 25px;
+}
+
+
+/*div 10*/
+
+
+.div10{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 13px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
